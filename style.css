@@ -467,4 +467,4 @@ botton,input,select{outline:none}
 @media (max-width:640px) {.fozhu-member-grid {grid-template-columns:1fr;}
 .fozhu-member-dialog {padding:18px;margin-top:6vh;}
 }
-
+.oldp{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:14px 0}.oldp img{width:100%;height:auto;display:block;object-fit:contain;border-radius:10px;background:#f6f6f6}.oldp *:not(img),.oldp br{display:none!important}@media(max-width:768px){.oldp{grid-template-columns:repeat(2,1fr);gap:10px}}
