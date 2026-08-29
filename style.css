@@ -7,7 +7,6 @@ Version: 2.5.2
 Text Domain: wp-bootstrap-starter
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
 */
-
 html{box-sizing:border-box}
 *,*::before,*::after{box-sizing:inherit}
 body{margin:0;padding:5px;font-size:1rem;font-weight:400;line-height:1.5;color:#292b2c;background:#fff;-webkit-font-smoothing:antialiased}
@@ -417,8 +416,6 @@ botton,input,select{outline:none}
 .links a{padding-right:10px}
 .copyright{font-size:.875rem;margin-bottom:0;text-align:center}
 .copyright a,footer#footer a{color:inherit}
-
-
 /* =========================   Fozhu Member Module   轻量优化版   ========================= *//* 弹窗基础 */
 .fozhu-modal-open {overflow:hidden;}
 .fozhu-member-modal[hidden] {display:none;}
@@ -469,7 +466,7 @@ botton,input,select{outline:none}
 }
 .oldp{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:14px 0}.oldp img{width:100%;height:auto;display:block;object-fit:contain;border-radius:10px;background:#f6f6f6}.oldp *:not(img),.oldp br{display:none!important}@media(max-width:768px){.oldp{grid-template-columns:repeat(2,1fr);gap:10px}}
 
-
+/* =========================   fzpg-gallery   ========================= *//*  */
 .fzpg-gallery{--fzpg-accent:#790d0d;box-sizing:border-box;width:100%;margin:8px 0 24px;padding:12px;background:#fff;border:1px solid #e6e2dc;border-radius:8px;box-shadow:0 5px 18px rgba(50,35,20,.07);text-indent:0!important}
 .fzpg-gallery *{box-sizing:border-box}
 .fzpg-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:clamp(460px,58vw,650px);overflow:hidden;background:#f5f3ef;border-radius:5px;touch-action:pan-y}
